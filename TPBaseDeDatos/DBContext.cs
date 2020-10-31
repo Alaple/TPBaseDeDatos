@@ -13,7 +13,7 @@ namespace TPBaseDeDatos
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=SchoolDBCF;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=EjemploBaseDeDatosDBCF;Trusted_Connection=True;");
         }
     }
 }
